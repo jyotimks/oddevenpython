@@ -1,5 +1,9 @@
 number = int(input('enter a number:'))
-if number % 2 ==0:
+def iseven(number):
+    if number % 2 ==0:
           print('the entered number is even')
-else:
+    else:
           print('the entered number is odd')
+number=int(input("enter a number"))
+
+iseven(number)                
